@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground"
+    android:clickable="true">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bloody Mary"
+        android:textSize="20dp"
+        android:id="@+id/drink_name"
+        android:padding="10dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mix"
+        android:textSize="15dp"
+        android:layout_below="@+id/drink_name"
+        android:id="@+id/drink_instructions"
+        android:paddingLeft="10dp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mix"
+        android:textSize="15dp"
+        android:visibility="gone"
+        android:layout_below="@+id/drink_instructions"
+        android:id="@+id/drink_ingrd1"
+        android:paddingLeft="10dp"
+        android:layout_marginBottom="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mix"
+        android:textSize="15dp"
+        android:visibility="gone"
+        android:layout_below="@+id/drink_ingrd1"
+        android:id="@+id/drink_ingrd2"
+        android:paddingLeft="10dp"
+        android:layout_marginBottom="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mix"
+        android:textSize="15dp"
+        android:visibility="gone"
+        android:layout_below="@+id/drink_ingrd2"
+        android:id="@+id/drink_ingrd3"
+        android:paddingLeft="10dp"
+        android:layout_marginBottom="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mix"
+        android:textSize="15dp"
+        android:visibility="gone"
+        android:layout_below="@+id/drink_ingrd3"
+        android:id="@+id/drink_ingrd4"
+        android:paddingLeft="10dp"
+        android:layout_marginBottom="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mix"
+        android:textSize="15dp"
+        android:visibility="gone"
+        android:layout_below="@+id/drink_ingrd4"
+        android:id="@+id/drink_ingrd5"
+        android:paddingLeft="10dp"
+        android:layout_marginBottom="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mix"
+        android:textSize="15dp"
+        android:visibility="gone"
+        android:layout_below="@+id/drink_ingrd5"
+        android:id="@+id/drink_ingrd6"
+        android:paddingLeft="10dp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_below="@id/drink_ingrd6"
+        android:background="#b7b7b7"
+        />
+
+
+</RelativeLayout>
